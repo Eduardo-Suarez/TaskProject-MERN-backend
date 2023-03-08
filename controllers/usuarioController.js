@@ -1,6 +1,6 @@
 import Usuario from "../models/Usuario.js";
 import generarId from "../helpers/generarId.js";
-import generarJWT from "../helpers/generarJWT.js";
+import generarJWT from "../helpers/generateJWT.js";
 import { emailRegistro, emailOlvidePassword } from "../helpers/email.js";
 
 const registrar = async (req, res) => {
