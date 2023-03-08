@@ -1,4 +1,3 @@
-//Hacemos la configuracion de nuestro servidor. importamos los paquetes necesarios.
 import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
@@ -79,3 +78,4 @@ io.on("connection", (socket) => {
     socket.to(proyecto).emit("nuevo estado", tarea);
   });
 });
+
